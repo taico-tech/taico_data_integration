@@ -1,0 +1,18 @@
+{
+    "taico": {
+        "GOOGLE_SHEETS_STAGING_AIRBYTE_CONNECTION_ID": "taico-gs-staging-id-415",
+        "GOOGLE_SHEETS_PRODUCTION_AIRBYTE_CONNECTION_ID": "taico-gs-prod-id-161",
+        "META_STAGING_AIRBYTE_CONNECTION_ID": "b0d15784-9303-4566-b062-b56dae509b89",
+        "META_PRODUCTION_AIRBYTE_CONNECTION_ID": "taico-meta-prod-id-192",
+        "TWITTER_STAGING_AIRBYTE_CONNECTION_ID": "taico-twitter-staging-id-202",
+        "TWITTER_PRODUCTION_AIRBYTE_CONNECTION_ID": "taico-twitter-prod-id-222"
+    },
+    "mms": {
+        "GOOGLE_SHEETS_STAGING_AIRBYTE_CONNECTION_ID": "mms-gs-staging-id-123",
+        "GOOGLE_SHEETS_PRODUCTION_AIRBYTE_CONNECTION_ID": "mms-gs-prod-id-456",
+        "META_STAGING_AIRBYTE_CONNECTION_ID": "mms-meta-staging-id-789",
+        "META_PRODUCTION_AIRBYTE_CONNECTION_ID": "mms-meta-prod-id-101",
+        "TWITTER_STAGING_AIRBYTE_CONNECTION_ID": "mms-twitter-staging-id-112",
+        "TWITTER_PRODUCTION_AIRBYTE_CONNECTION_ID": "mms-twitter-prod-id-131"
+    }
+}

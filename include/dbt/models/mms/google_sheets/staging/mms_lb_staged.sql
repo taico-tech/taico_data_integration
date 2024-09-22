@@ -1,0 +1,17 @@
+select   PARSE_DATE('%d.%m.%Y', datum) as date,
+'TV' as channel,
+Motiv as campaign ,
+Sender publisher,
+'DE' as property,
+Firma as product_group,
+Produkt as product,
+CONCAT(CAST(Spot_l__nge AS STRING), ' second spot') as media_type,
+'Classical' as media_cluster,
+BRW as unique,
+GRP as grp_circulation,
+'MMS' as owner,
+CURRENT_DATETIME() as added_at,
+'CSV' as source,
+Audience as audience,
+REGEXP_REPLACE(Block, r'(\d{2})(\d{2})\\(\d{2})\\(\d{2})', r'\1-\2-\3-\4') as block_code
+from {{ source("mms", "Landliebe_2024_lw_q1") }}

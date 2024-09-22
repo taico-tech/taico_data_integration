@@ -1,0 +1,29 @@
+# models/taico/meta/schema.yml
+
+version: 2
+
+models:
+  - name: fb_meta_ads_transformed
+    description: "Transformed Facebook ads data with additional derived columns."
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: date
+        tests:
+          - not_null
+      - name: channel
+        tests:
+          - not_null
+      - name: clicks
+        tests:
+          - not_null
+          - accepted_values:
+              values: [">= 0"]
+      - name: impressions
+        tests:
+          - not_null
+          - accepted_values:
+              values: [">= 0"]
+      # Add more tests as needed for each critical column

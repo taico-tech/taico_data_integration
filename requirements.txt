@@ -1,0 +1,3 @@
+astronomer-cosmos[dbt-bigquery]
+protobuf
+apache-airflow-providers-airbyte

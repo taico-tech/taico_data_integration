@@ -1,0 +1,45 @@
+
+# # sources.yml
+version: 2
+
+sources:
+  - name: retail
+    database: primordial-ship-332419
+
+    tables:
+      - name: raw_invoices
+      - name: country
+  
+  - name: taico
+    database: primordial-ship-332419
+
+    tables:
+      - name: main_taico_v3
+
+  - name: mms
+    database: primordial-ship-332419
+
+    tables:
+      - name: main_mms
+      - name: landliebe_2024_kosten_q1
+      - name: Landliebe_2024_lw_q1
+
+
+  - name: dummy_integration_staging
+    database: primordial-ship-332419
+    tables:
+      - name: ads_insights
+      - name: campaigns
+
+
+
+# sources.yml
+# version: 2
+
+# sources:
+#   - name: taico
+#     database: primordial-ship-332419
+
+#     tables:
+#         - name: main_taico_v3
+      

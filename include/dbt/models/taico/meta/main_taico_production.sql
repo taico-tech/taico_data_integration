@@ -1,0 +1,9 @@
+{{
+    run_query(
+        truncate_table(
+            var('project_id'),
+            var('dataset_id'),
+            'main_taico_production'
+        )
+    )
+}}
