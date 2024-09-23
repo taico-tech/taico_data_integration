@@ -4,7 +4,7 @@
 This project demonstrates the creation of an automated data pipeline using Apache Airflow, DBT for data modeling, and Python scripts for data validation. The pipeline extracts, validates, transforms, and loads data into Google BigQuery.
 
 ## Project Goals
-The goal is scalable data pipeline integrated with GCP. DBT is used for data transformations, while custom Python scripts are used for validation to ensure data quality before processing.
+The goal isto build a scalable data pipeline integrated with GCP. DBT is used for data transformations, while custom Python scripts are used for validation to ensure data quality before processing.
 
 ## Architecture Overview
 This project follows these steps:
