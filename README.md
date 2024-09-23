@@ -32,10 +32,12 @@ cd taico_data_integration
 ```markdown
 # Data Pipeline with Astro, DBT, and Airflow on GCP
 
-## 3. Configure Environment Variables
+```
+### 3. Configure Environment Variables
 Set up your GCP and Airbyte connection credentials in the `include/airbyte_variables.json` file. Include your service account key for GCP in the `gcp` folder under `include`.
 
 ### Example airbyte_variables.json:
+
 ```json
 {
    "airbyte_server_host": "localhost",
@@ -43,7 +45,6 @@ Set up your GCP and Airbyte connection credentials in the `include/airbyte_varia
    "airbyte_connection_id": "<your_connection_id>"
 }
 ```
-
 Place your GCP service account key in the `gcp/` folder under `include`. Then, update the Airflow environment to include the path to this service account key. Add the following to your `.env` file:
 
 ```bash
