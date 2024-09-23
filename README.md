@@ -179,5 +179,4 @@ Once the DAG is set up and all tasks are defined:
 1. Start Airflow (`astro dev start`).
 2. Access the UI at `localhost:8080`.
 3. Trigger the DAG manually or let it run based on the defined schedule.
-```
 
